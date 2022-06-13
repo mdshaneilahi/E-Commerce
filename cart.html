@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - TryOutFit.com</title>
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cd7b93bd92.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+
+            <div class="logo">
+                <img src="/background img/logo.png" alt="Image loading Please Wait......">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="/Product.html"><i class="fab fa-product-hunt"></i>Products</a></li>
+                    <li><a href=""><i class="fas fa-info"></i>About</a></li>
+                    <li><a href=""><i class="fas fa-phone-alt"></i>Contact</a></li>
+                    <li><a href="/Accounts.html"><i class="fa fa-user" ></i></i>Account</a></li>
+
+                </ul>
+
+            </nav>
+            <a href="/cart.html"><img id="cart" src="/background img/shopping-cart.png"
+                alt="Image loading Please Wait......"></a>
+        <img src="/background img/menu.png" class="menu-icon" onclick="menutoggle() "
+            alt="Image loading Please Wait......">
+        </div>
+    </div>
+
+
+    <!-- Cart items details -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Products</th>
+                <th>Quantity</th>
+                <th>Sub-Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/background img/Product5.jpeg" alt="">
+                        <div>
+                            <p>Full Sleeve Solid Men Sports Jacket</p>
+                            <small>Price: &#8377;1790.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;1790.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/background img/Product4.jpeg" alt="">
+                        <div>
+                            <p>Sonata Watch</p>
+                            <small>Price: &#8377;1600.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;1600.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/background img/Product6.jpeg" alt="">
+                        <div>
+                            <p>Blue Track Pants</p>
+                            <small>Price: &#8377;999.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;999.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/background img/Product10.jpeg" alt="">
+                        <div>
+                            <p>Hustle V2 Wns</p>
+                            <small>Price: &#8377;1499.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;1499.00</td>
+            </tr>
+        </table>
+
+        <div class="totalprice">
+            <table>
+                <tr>
+                    <td>Sub-Total</td>
+                    <td>&#8377;5888.00</td>
+                </tr>
+                <tr>
+                    <td>GST</td>
+                    <td>&#8377;688.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>&#8377;6576.00</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Doload App for Andriod and ios Mobile phone</p>
+                    <div class="app-logo">
+                        <img src="/background img/app store (1).png" alt="">
+                        <img src="/background img/google store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/background img/logo.png" alt="">
+                    <p>Our Purpose is to Dilevering original product.Fast and Safe and fully sanetaise</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-official"></i>Facebook</li>
+                        <li><i class="fa fa-twitter"></i>Twitter</li>
+                        <li><i class="fa fa-instagram"></i>Instagram</li>
+                        <li><i class="fa fa-youtube-play"></i>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> &copy;www.TryOutfit.com. All rights resderved!</p>
+    </div>
+
+
+    <!-- Js for toggle menu -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
